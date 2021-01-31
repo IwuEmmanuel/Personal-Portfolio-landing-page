@@ -269,6 +269,16 @@ hr {
     width: 100%;
 }
 
+.project__button {
+    background-color: var(--first-color);
+    color: var(--first-color-lighten);
+    padding: 1rem 2rem;
+    font-weight: var(--font-semi-bold);
+    border-radius: .5rem;
+    transition: .3s;
+    
+}
+
 /*BUTTONS*/
 .button{
     display: inline-block;
@@ -764,6 +774,11 @@ hr {
     .project__image{
         align-self: flex-end;
         margin: auto;
+    }
+
+    .project__button{
+         width:auto;
+         align-items: center;
     }
 
     .contact__info{
