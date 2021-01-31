@@ -705,7 +705,8 @@ hr {
 /* ===== MEDIA QUERIES=====*/
 @media screen and (min-width : 768px){
     .home__button{
-        width: initial;
+        width:auto;
+        padding: .5rem 1rem;
     }
 
     .nav__menu{
